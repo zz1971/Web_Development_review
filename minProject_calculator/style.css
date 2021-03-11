@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+  }
+
+.body{
+    padding: 0;
+    margin: 0;
+}
+  .back{
+      width: 500px;
+      height: 598px;
+      background-color:rgb(0, 0, 0);
+      margin: 100px 300px 300px 300px;
+      /* 
+      flex-wrap: wrap; */
+      /* display: float; */
+      align-items: stretch;
+      /* height: 200px; */
+  }
+  .no-height {
+    height: inherit;
+  }
+  .botton-container{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .row{
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+    height: 98.5px;
+    justify-content: space-between;
+    /* align-items: stretch; */
+    margin-bottom: 1.5px;
+    /* background-color: cyan; */
+  }
+  .displayResult{
+      width: 50%;
+      background-color: rgb(0, 0, 0);
+      color: azure;
+      align-items: center;
+      text-align: right;
+      justify-content: flex-end;
+      margin-bottom: 0.5px; 
+      margin-left: 220px;
+      /* padding: 20px 5px; */
+      font-size: 30px;
+      font-family:Arial, Helvetica, sans-serif;
+  }
+
+  .middlecell{
+      width: 24.5%;
+      background-color: #9b96ca;
+      text-align: center;
+      align-items: center;
+      color: cornsilk;
+      font-size: 30px;
+      font-family:Arial, Helvetica, sans-serif;
+      /* margin-left: 0.5px; */
+      /* border: rgb(153, 111, 119); */
+      border: none;
+      border-radius: 0;
+      cursor: pointer;
+  }
+  .operators{
+      width:24.5%;
+      background-color: rgb(211, 118, 191);
+      text-align: center;
+      align-items: center;
+      color: cornsilk;
+      font-size: 30px;
+      font-family:Arial, Helvetica, sans-serif;
+      /* margin-left: 0.5px; */
+      border: none;
+      border-radius: 0;
+      cursor: pointer;
+  }
+  .clear{
+      width:49.7% ;
+  }
+  .zero{
+      width:74.8% ;
+  }
+  .unmargin{
+    margin-bottom: 0px;
+  }
+
+  .middlecell:hover{
+      background-color: #c0becc;
+  }
+  .operators:hover{
+      background-color: rgb(223, 176, 216);
+  }
+  .middlecell:active{
+      background-color: #766ec2;
+  }
+  .operators:active{
+      background-color: rgb(105, 11, 105);
+  }

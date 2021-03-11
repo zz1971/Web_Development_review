@@ -1,0 +1,12 @@
+
+.main-brand{
+   font-size: 70px;
+   text-align: center;
+   font-weight: normal;
+   font-family: cursive; 
+   font-family: 'Great Vibes', cursive;
+   margin: 60px 0;
+   /*margin-top: 60px;
+   margin-bottom: 60px; 
+   margin: 60px 100px 60px 10px;  top left bottom right*/
+}
